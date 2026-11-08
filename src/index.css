@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #FAF9F6;
+    color: #141413;
+    font-family: 'Plus Jakarta Sans', Inter, system-ui, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  .font-serif {
+    font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Custom utility for tinting black PNG icons into GoldenGuest Metallic Gold (#C5A059) */
+.icon-gold-filter {
+  filter: invert(68%) sepia(29%) saturate(678%) hue-rotate(3deg) brightness(92%) contrast(87%);
+}
+
+/* Custom utility for tinting black PNG icons into white/cream on dark surfaces */
+.icon-light-filter {
+  filter: invert(95%) sepia(8%) saturate(207%) hue-rotate(352deg) brightness(103%) contrast(96%);
+}
+
+/* Subtle dark topographic/map texture overlay */
+.bg-dark-map {
+  background-color: #141413;
+  background-image: linear-gradient(rgba(20, 20, 19, 0.86), rgba(20, 20, 19, 0.90)), url('/assets/bg-logo.png');
+  background-size: cover;
+  background-position: center;
+}
