@@ -42,7 +42,7 @@ All City Guides (`Paris`, `Barcelona`, `London`, `Rome`, `Tokyo`, and upcoming T
 
 1. **Fork & Clone the Repository:**
    ```bash
-   git clone https://github.com/<your-username>/goldenguest.git
+   git clone https://github.com/lunar-elixir/goldenguest.git
    cd goldenguest
    npm install
    npm run dev
